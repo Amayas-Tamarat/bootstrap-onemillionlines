@@ -1,18 +1,16 @@
 /* Vos customisations des classes de Bootstrap */
-
-
-
-
-/* Responsive Styling */
-
-@media (max-width: 1199px) {
-
+.img {
+    width: 100%;
+    z-index: 0; 
+}
+.txthome{
+    style=z-index: 1;position: absolute;top: 90px;
 }
 
-@media (max-width: 991px) {
-
+.navbar-dark{
+    background-color: black;
 }
 
-@media (max-width: 767px) {
-
+.nav-link, h1, h2, h3{
+    font-family: Arvo;
 }

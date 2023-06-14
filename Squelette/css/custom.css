@@ -1,11 +1,4 @@
 /* Vos customisations des classes de Bootstrap */
-.img {
-    width: 100%;
-    z-index: 0; 
-}
-.txthome{
-    style=z-index: 1;position: absolute;top: 90px;
-}
 
 .navbar-dark{
     background-color: black;
@@ -14,3 +7,32 @@
 .nav-link, h1, h2, h3{
     font-family: Arvo;
 }
+
+body{
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: red;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+hr{
+    width: 200px;
+}
+
+svgs{
+    width: 40px;
+    height: 40px;
+}
+#get-involved{
+    background-color: rgb(205, 203, 203);
+}
+
+#who{
+    background-color: white;
+}
+
